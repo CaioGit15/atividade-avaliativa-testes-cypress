@@ -1,0 +1,17 @@
+{
+  "name": "qa-cypress-desafio",
+  "version": "1.0.0",
+  "description": "Desafio de automação de testes com Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "q1": "cypress run --spec cypress/e2e/questao1.cy.js",
+    "q2": "cypress run --spec cypress/e2e/questao2.cy.js",
+    "q3": "cypress run --spec cypress/e2e/questao3.cy.js",
+    "q4": "cypress run --spec cypress/e2e/questao4.cy.js",
+    "q5": "cypress run --spec cypress/e2e/questao5.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
